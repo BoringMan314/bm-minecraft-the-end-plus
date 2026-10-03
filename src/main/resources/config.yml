@@ -1,0 +1,14 @@
+# bm-minecraft-the-end-plus 設定檔
+
+# 終界重置功能總開關。關閉時一般玩家不能使用 /the-end-reset。
+enabled: true
+
+# 成功使用 /the-end-reset 後，一般玩家再次使用前必須等待的分鐘數。
+# OP、控制台不受此限制。可設 0 至 10080（七天），預設 30。
+reset-cooldown-minutes: 30
+
+# true 時，遊戲內管理指令需要 OP；控制台始終可管理。
+admin-require-op: true
+
+# 終界龍死亡後，重建返回傳送門、噴泉龍蛋與至少一座終界折躍門。
+restore-first-experience: true

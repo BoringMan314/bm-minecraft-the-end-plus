@@ -1,0 +1,24 @@
+name: bm-minecraft-the-end-plus
+version: "26.3_0.0.1"
+main: bm.minecraft.the.end.plus.BmMinecraftTheEndPlusPlugin
+api-version: '26.3'
+description: "終界 PLUS。"
+authors:
+  - "[B.M] 圓周率™3.14"
+website: "http://exnormal.com:81/"
+
+commands:
+  the-end-reset:
+    description: 依種子重置整張終界。
+    usage: /the-end-reset
+  bm-minecraft-the-end-plus:
+    description: 管理 bm-minecraft-the-end-plus。
+    usage: /bm-minecraft-the-end-plus [0|1|info|status|reload|set <分鐘>]
+
+permissions:
+  bm-minecraft-the-end-plus.use:
+    description: 允許玩家使用 /the-end-reset。
+    default: true
+  bm-minecraft-the-end-plus.admin:
+    description: 允許管理 bm-minecraft-the-end-plus。
+    default: op
