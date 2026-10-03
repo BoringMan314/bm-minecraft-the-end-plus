@@ -1,4 +1,4 @@
-language-format-version: 1
+language-format-version: 2
 
 console:
   enabled: 'bm-minecraft-the-end-plus {version} 已启用。'
@@ -16,7 +16,7 @@ console:
 
 messages:
   help-header: '&6&l═ bm-minecraft-the-end-plus ═'
-  help-reset: '&e/the-end-reset &f- 按种子重置整张末地'
+  help-reset: '&e/the-end-reset &f- 重置末地'
   help-toggle: '&e/bm-minecraft-the-end-plus 0/1 &f- 开关指令'
   help-reload: '&e/bm-minecraft-the-end-plus reload &f- 重新加载配置'
   help-info: '&e/bm-minecraft-the-end-plus info &f- 显示插件信息'
@@ -28,8 +28,8 @@ messages:
   feature-disabled: '&a[末地] &f末地重置功能目前已&e关闭。'
   not-in-end: '&a[末地] &c错误：&f你必须位于末地才能重置末地。'
   no-end-world: '&a[末地] &c错误：&f服务器没有末地世界可重置。'
-  end-reset-started: '&a[末地] &f正在按种子重置 &e{world} &f 的整张末地…'
-  end-reset: '&a[末地] &f已重置整张末地 &e{world}&f。'
+  end-reset-started: '&a[末地] &f正在重置 &e{world}&f…'
+  end-reset: '&a[末地] &f已重置 &e{world}&f。'
   end-reset-failed: '&a[末地] &c错误：&f无法重置末地世界 &e{world}&f。'
   end-reset-in-progress: '&a[末地] &e警告：&f世界 &e{world} &f正在重置，请稍候。'
   end-cooldown: '&a[末地] &f还需 &e{minutes} &f分才可再次重置末地。'

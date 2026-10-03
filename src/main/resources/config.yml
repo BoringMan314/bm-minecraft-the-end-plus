@@ -10,5 +10,7 @@ reset-cooldown-minutes: 30
 # true 時，遊戲內管理指令需要 OP；控制台始終可管理。
 admin-require-op: true
 
-# 終界龍死亡後，重建返回傳送門、噴泉龍蛋與至少一座終界折躍門。
+# 水晶復活後再次擊殺龍時，恢復首次擊殺狀態與 12000 經驗（遵守 mob_drops）。
+# 返回門、龍蛋、折躍門由原版結算；不額外生成第二座門。
+# 指令重置時強制清龍不發獎勵。此設定不影響中央四區重置。
 restore-first-experience: true

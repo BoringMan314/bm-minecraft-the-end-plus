@@ -9,7 +9,7 @@ website: "http://exnormal.com:81/"
 
 commands:
   the-end-reset:
-    description: 依種子重置整張終界。
+    description: 強制重置終界中央四區與龍戰鬥，保留外島。
     usage: /the-end-reset
   bm-minecraft-the-end-plus:
     description: 管理 bm-minecraft-the-end-plus。

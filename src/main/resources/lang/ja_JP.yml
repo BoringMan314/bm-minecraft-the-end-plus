@@ -1,4 +1,4 @@
-language-format-version: 1
+language-format-version: 2
 
 console:
   enabled: 'bm-minecraft-the-end-plus {version} を有効にしました。'
@@ -16,7 +16,7 @@ console:
 
 messages:
   help-header: '&6&l═ bm-minecraft-the-end-plus ═'
-  help-reset: '&e/the-end-reset &f- シードからジ・エンド全体をリセット'
+  help-reset: '&e/the-end-reset &f- ジ・エンドをリセット'
   help-toggle: '&e/bm-minecraft-the-end-plus 0/1 &f- 有効／無効を切り替え'
   help-reload: '&e/bm-minecraft-the-end-plus reload &f- 設定を再読み込み'
   help-info: '&e/bm-minecraft-the-end-plus info &f- プラグイン情報を表示'
@@ -28,8 +28,8 @@ messages:
   feature-disabled: '&a[ジ・エンド] &fジ・エンドのリセット機能は現在&e無効&fです。'
   not-in-end: '&a[ジ・エンド] &cエラー：&fジ・エンドをリセットするにはジ・エンドにいる必要があります。'
   no-end-world: '&a[ジ・エンド] &cエラー：&fリセットできるジ・エンドのワールドがありません。'
-  end-reset-started: '&a[ジ・エンド] &fシードから &e{world} &f 全体をリセットしています…'
-  end-reset: '&a[ジ・エンド] &f&e{world} &f全体をリセットしました。'
+  end-reset-started: '&a[ジ・エンド] &f&e{world} &fをリセット中…'
+  end-reset: '&a[ジ・エンド] &f&e{world} &fをリセットしました。'
   end-reset-failed: '&a[ジ・エンド] &cエラー：&fジ・エンドのワールド &e{world} &fをリセットできませんでした。'
   end-reset-in-progress: '&a[ジ・エンド] &e警告：&fワールド &e{world} &fはリセット中です。しばらくお待ちください。'
   end-cooldown: '&a[ジ・エンド] &f再リセットまであと &e{minutes} &f分です。'

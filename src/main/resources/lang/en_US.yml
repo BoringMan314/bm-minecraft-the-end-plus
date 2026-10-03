@@ -1,4 +1,4 @@
-language-format-version: 1
+language-format-version: 2
 
 console:
   enabled: 'bm-minecraft-the-end-plus {version} enabled.'
@@ -16,7 +16,7 @@ console:
 
 messages:
   help-header: '&6&l═ bm-minecraft-the-end-plus ═'
-  help-reset: '&e/the-end-reset &f- Reset the entire End from the world seed'
+  help-reset: '&e/the-end-reset &f- Reset The End'
   help-toggle: '&e/bm-minecraft-the-end-plus 0/1 &f- Enable or disable the feature'
   help-reload: '&e/bm-minecraft-the-end-plus reload &f- Reload configuration'
   help-info: '&e/bm-minecraft-the-end-plus info &f- Show plugin information'
@@ -28,8 +28,8 @@ messages:
   feature-disabled: '&a[The End] &fThe End reset feature is currently &edisabled.'
   not-in-end: '&a[The End] &cError: &fYou must be in The End to reset it.'
   no-end-world: '&a[The End] &cError: &fThis server has no End world to reset.'
-  end-reset-started: '&a[The End] &fResetting the entire End world &e{world}&f from its seed…'
-  end-reset: '&a[The End] &fReset the entire End world &e{world}&f.'
+  end-reset-started: '&a[The End] &fResetting &e{world}&f…'
+  end-reset: '&a[The End] &fReset &e{world}&f.'
   end-reset-failed: '&a[The End] &cError: &fCould not reset The End world &e{world}&f.'
   end-reset-in-progress: '&a[The End] &eWarning: &fWorld &e{world} &fis already being reset. Please wait.'
   end-cooldown: '&a[The End] &fYou must wait &e{minutes} &fmore minute(s) to reset The End again.'
